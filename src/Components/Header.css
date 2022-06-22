@@ -1,0 +1,15 @@
+.particle-container {
+  height: 100vh;
+}
+.wrapper {
+  position: relative;
+}
+
+.text {
+  background-color: black;
+  color: #fff;
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  width: 100%;
+}
