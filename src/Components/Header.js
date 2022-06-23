@@ -1,6 +1,7 @@
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import "./Header.css";
+import Nav from "./Nav";
 
 const Header = () => {
   const particlesInit = async (main) => {
@@ -17,6 +18,9 @@ const Header = () => {
   };
   return (
     <div className="wrapper">
+      <section className="nav-section">
+        <Nav />
+      </section>
       <Particles
         id="tsparticles"
         init={particlesInit}
@@ -28,7 +32,7 @@ const Header = () => {
           },
           background: {
             color: {
-              value: "#0000",
+              value: "#fff",
             },
           },
           fpsLimit: 120,
@@ -56,10 +60,10 @@ const Header = () => {
           },
           particles: {
             color: {
-              value: "#ffffff",
+              value: "#000",
             },
             links: {
-              color: "#ffffff",
+              color: "#0000",
               distance: 150,
               enable: true,
               opacity: 0.5,
@@ -75,7 +79,7 @@ const Header = () => {
                 default: "bounce",
               },
               random: false,
-              speed: 7,
+              speed: 5,
               straight: false,
             },
             number: {

@@ -1,0 +1,19 @@
+.li-items {
+  display: flex;
+  justify-content: space-around;
+}
+li {
+  list-style: none;
+  margin-left: 1rem;
+}
+.nav {
+  height: 4.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+
+  background-color: #000066;
+  background-color: #7510f7;
+  color: #fff;
+}

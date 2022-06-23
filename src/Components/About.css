@@ -1,0 +1,16 @@
+.about-container {
+  background-color: #000066;
+  background-color: #7510f7;
+
+  color: #ffff;
+  padding: 4rem 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-content {
+  width: 70%;
+}
+.about-heading {
+  margin-bottom: 1rem;
+}

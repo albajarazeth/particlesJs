@@ -1,0 +1,26 @@
+.contact-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+  background-color: #7510f7;
+  color: #ffff;
+}
+
+.contact-container a {
+  color: #ffff;
+  text-decoration: none;
+}
+.link {
+  font-weight: bolder;
+}
+.social-text {
+  display: flex;
+}
+.social-icon {
+  margin-right: 0.5rem;
+}
+.contact-heading {
+  margin-bottom: 0.5rem;
+}

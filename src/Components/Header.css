@@ -1,13 +1,14 @@
-.particle-container {
-  height: 100vh;
+#tsparticles {
+  height: 40rem;
 }
 .wrapper {
   position: relative;
 }
-
 .text {
-  background-color: black;
+  background-color: white;
+  background-color: transparent;
   color: #fff;
+  color: black;
   position: absolute;
   text-align: center;
   top: 40%;
