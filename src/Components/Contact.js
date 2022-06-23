@@ -3,7 +3,6 @@ import React from "react";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiOutlineMail } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
-import { AiOutlineLink } from "react-icons/ai";
 
 const socials = [
   {
