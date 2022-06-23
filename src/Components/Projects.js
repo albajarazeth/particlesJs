@@ -30,7 +30,7 @@ export default function Projects() {
   const items = projects.map((el) => {
     return (
       <div className="card">
-        <img className="images" alt="projects" src={el.image} />
+        <img className="images" alt=" " src={el.image} />
         <a href={el.link}>
           <div className="card-text">
             <h3>{el.title}</h3>
